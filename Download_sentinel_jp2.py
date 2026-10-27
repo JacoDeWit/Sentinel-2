@@ -14,7 +14,7 @@ Usage:  Change section #1 variables to reflect directory and input of the statio
 ##
 
 import os
-os.environ['GDAL_DATA'] = r'C:\Users\jaco.dewit\AppData\Local\miniforge3\envs\jupyterlab\Library\share\gdal'
+os.environ['GDAL_DATA'] = r'C:\Users\{username}\AppData\Local\miniforge3\envs\jupyterlab\Library\share\gdal'   # Only necessary if working in virtual environment and gdal .dll's get mixed up and wonky.
 import re
 import json
 import time
